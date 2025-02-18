@@ -1,0 +1,45 @@
+{
+    "products": [
+        {
+            "sku": "item00001",
+            "name": "Blouse",
+            "price": 149000
+        },
+        {
+            "sku": "item00002",
+            "name": "T-Shirt",
+            "price": 99000
+        },
+        {
+            "sku": "item00003",
+            "name": "Jacket",
+            "price": 499000
+        }
+        {
+            "sku": "item00004",
+            "name": "Jacket",
+            "price": 499000
+        }
+        {
+            "sku": "item00005",
+            "name": "Jacket",
+            "price": 499000
+        }
+        {
+            "sku": "item00006",
+            "name": "Jacket",
+            "price": 499000
+        }
+        {
+            "sku": "item00007",
+            "name": "Jacket",
+            "price": 499000
+        }
+        {
+            "sku": "item00008",
+            "name": "Jacket",
+            "price": 499000
+        }
+    ]
+}
+

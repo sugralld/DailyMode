@@ -1,0 +1,20 @@
+{
+    "products": [
+        {
+            "sku": "item00001",
+            "name": "Blouse",
+            "price": 1
+        },
+        {
+            "sku": "item00002",
+            "name": "T-Shirt",
+            "price": 19.99
+        },
+        {
+            "sku": "item00003",
+            "name": "Jacket",
+            "price": 29.99
+        }
+    ]
+}
+
