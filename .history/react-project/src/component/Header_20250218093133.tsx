@@ -29,7 +29,7 @@ const Header = ({ viewCart, setViewCart }: PropsType) => {
           sx={{
             fontFamily: "'Poppins', sans-serif",
             fontWeight: 600,
-            color: "#fff",
+            color: "#333",
           }}
         >
           DailyMode

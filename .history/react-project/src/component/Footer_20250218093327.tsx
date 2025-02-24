@@ -44,12 +44,11 @@ const Footer = ({ viewCart }: PropsType) => {
     <Box
       component="footer"
       sx={{
-        backgroundColor: "#000",
+        backgroundColor: "#f8f9fa",
         padding: 2,
         textAlign: "center",
         mt: "auto",
         boxShadow: "0 -2px 5px rgba(0,0,0,0.1)",
-        color: "#fff"
       }}
     >
       <Container>{pageContent}</Container>

@@ -13,7 +13,9 @@ const Footer = ({ viewCart }: PropsType) => {
   const pageContent = viewCart ? (
     <Typography
       variant="body1"
-      sx={{ fontWeight: 500, fontFamily: "'Poppins', sans-serif" }}
+      sx={{ fontWeight: 500, fontFamily: "'Poppins', sans-serif", color: 
+        
+      }}
     >
       DailyMode &copy; {year}
     </Typography>
@@ -44,12 +46,11 @@ const Footer = ({ viewCart }: PropsType) => {
     <Box
       component="footer"
       sx={{
-        backgroundColor: "#000",
+        backgroundColor: "#f8f9fa",
         padding: 2,
         textAlign: "center",
         mt: "auto",
         boxShadow: "0 -2px 5px rgba(0,0,0,0.1)",
-        color: "#fff"
       }}
     >
       <Container>{pageContent}</Container>

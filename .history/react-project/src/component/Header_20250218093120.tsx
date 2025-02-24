@@ -15,13 +15,13 @@ const Header = ({ viewCart, setViewCart }: PropsType) => {
   const { totalItems, totalPrice } = useCart();
 
   const content = (
-    <AppBar position="static" sx={{ backgroundColor: "#000", boxShadow: 2 , color: "#fff"}}>
+    <AppBar position="static" sx={{ backgroundColor: "#000", boxShadow: 2 , color: }}>
       <Toolbar
         sx={{
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          color: "#fff",
+          color: "#333",
         }}
       >
         <Typography
@@ -29,7 +29,7 @@ const Header = ({ viewCart, setViewCart }: PropsType) => {
           sx={{
             fontFamily: "'Poppins', sans-serif",
             fontWeight: 600,
-            color: "#fff",
+            color: "#333",
           }}
         >
           DailyMode

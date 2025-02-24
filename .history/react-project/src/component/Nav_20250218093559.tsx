@@ -18,10 +18,10 @@ const Nav = ({ viewCart, setViewCart }: PropsType) => {
       variant="contained"
       color="primary"
       type="button"
-      sx={{
+      sx={{ 
         m: 1,
         backgroundColor: "#fff",
-        borderRadius: "50px",
+        borderRadius: "50px"
       }}
     >
       ↩️
@@ -34,10 +34,10 @@ const Nav = ({ viewCart, setViewCart }: PropsType) => {
       }}
       variant="contained"
       type="button"
-      sx={{
+      sx={{ 
         m: 1,
         backgroundColor: "#fff",
-        borderRadius: "50px",
+        borderRadius: "50px"
       }}
     >
       🛒
